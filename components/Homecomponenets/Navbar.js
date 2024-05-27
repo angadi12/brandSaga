@@ -259,7 +259,7 @@ export default function Nav() {
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
         maxWidth="full"
-        className="md:w-[100%] mx-auto bg-transparent  bg-blur-3xl"
+        className={pathname === "/" ?"md:w-[100%] mx-auto bg-[#1F1F1F4D]":'md:w-[100%] mx-auto bg-[#FFFFFF4D]'}
         isBlurred={true}
         position="sticky"
       >
@@ -280,7 +280,7 @@ export default function Nav() {
                 selected === "Home"
                   ? "font-semibold text-xs text-redtheme"
                   : pathname === "/"
-                  ? "font-bold text-xs  text-white"
+                  ? "font-bold text-xs shadow-2xl  text-white"
                   : "font-semibold text-xs text-black"
               }
               href="/"
@@ -294,7 +294,7 @@ export default function Nav() {
                 selected === "Aboutus"
                   ? "font-semibold text-xs text-redtheme"
                   : pathname === "/"
-                  ? "font-semibold text-xs text-white"
+                  ? "font-semibold text-xs shadow-2xl text-white"
                   : "font-semibold text-xs text-black"
               }
               href="/Aboutus"
