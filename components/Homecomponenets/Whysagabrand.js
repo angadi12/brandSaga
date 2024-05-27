@@ -120,7 +120,7 @@ const reviews=[
     <>
       <div className="w-full flex justify-center items-center gap-12 overflow-hidden py-16">
         <div className="lg:w-1/2 flex flex-col justify-center items-center gap-12">
-          <h2 className="font-bold text-2xl leading-8 capitalize">
+          <h2 className="font-bold text-3xl leading-8 capitalize">
             why choose <span className="text-redtheme">brandSaga?</span>
           </h2>
 
@@ -206,7 +206,7 @@ const reviews=[
       {/* crousel */}
       <div className="flex flex-col justify-center items-start gap-4 mt-16">
         <div className="w-11/12 mx-auto">
-          <h6 className="font-bold text-2xl mt-8">
+          <h6 className="font-bold text-3xl mt-8">
           Our Client 
             <span className="text-redtheme ml-2">Testimonials</span>{" "}
           </h6>
@@ -281,7 +281,7 @@ const reviews=[
 
       <div className="flex flex-col w-11/12 mx-auto mt-4 py-16">
         <div>
-          <h6 className="text-xl font-bold left-8 capitalize">
+          <h6 className="text-3xl font-bold left-8 capitalize">
             top <span className="text-redtheme">brands</span> who choose us!
           </h6>
           <div className="grid lg:grid-cols-7 md:grid-cols-7 grid-cols-2 gap-2 mt-12 overflow-hidden">

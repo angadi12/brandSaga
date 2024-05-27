@@ -13,7 +13,7 @@ const Aboutsaga = () => {
   return (
     <div className="w-11/12 py-20 mx-auto flex lg:flex-row flex-col-reverse justify-center items-start gap-12">
       <div className="flex flex-col justify-start items-start gap-8 lg:w-[46%]">
-        <h6 className="text-xl font-semibold">
+        <h6 className="text-3xl font-semibold">
           About <span className="text-redtheme">BrandSaga!</span>
         </h6>
         <p className="text-start  text-sm font-medium leading-7 lg:w-[32rem]">{`BrandSaga is a team of digital marketing experts who are passionate about helping brands succeed in the ever-evolving digital world. With a focus on innovation, creativity, and strategic thinking, we partner with brands to create impactful digital campaigns that drive results.`}</p>
@@ -37,7 +37,7 @@ const Aboutsaga = () => {
       </div>
       <div className="md:w-full lg:w-[45%] relative">
         <div>
-          <Image className="lg:w-[32rem] w-full " src={aboutimag} alt="aboutimg" />
+          <Image className="lg:w-[36rem] w-full " src={aboutimag} alt="aboutimg" />
         </div>
         <div>
           <Image className="absolute right-4 -top-6 md:w-24 md:h-[5rem] h-16 w-20" src={Bookmark} alt="savedimage" />

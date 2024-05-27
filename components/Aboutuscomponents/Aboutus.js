@@ -12,7 +12,7 @@ import { Card, CardBody } from "@nextui-org/react";
 
 const Aboutus = () => {
   return (
-    <motion.div   initial={{opacity:0}}
+    <motion.div   initial={{opacity:0.7}}
     whileInView={{opacity:1}}
     transition={{ duration: 0.5 }} className="flex flex-col justify-center items-center w-11/12 gap-8 mx-auto">
       <motion.div
@@ -29,7 +29,7 @@ const Aboutus = () => {
       </motion.div>
       <div className="grid md:grid-cols-3 md:gap-12 gap-4 place-content-start items-start">
         <div>
-          <h6 className="text-2xl font-semibold">
+          <h6 className="text-4xl font-semibold">
             Who do we see<br></br>{" "}
             <span className="text-redtheme">ourselves</span> as?
           </h6>

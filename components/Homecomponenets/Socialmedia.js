@@ -140,10 +140,10 @@ const Socialmedia = () => {
   return (
     <div className="flex flex-col w-11/12 mx-auto mt-4 py-20">
       <div>
-        <h6 className="text-xl font-bold left-8 capitalize">
+        <h6 className="text-3xl font-bold left-8 capitalize">
           Social Media <span className="text-redtheme">Channels!</span>
         </h6>
-        <div className="flex justify-evenly items-start flex-row flex-wrap gap-8 py-8 w-full overflow-hidden">
+        <div className="flex justify-center gap-6 items-start flex-row flex-wrap  py-8 w-full overflow-hidden">
           {Switchtoggle.map((Element, index) => (
             <Switch
               key={index}

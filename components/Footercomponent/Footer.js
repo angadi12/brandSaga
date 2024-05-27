@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <div className='w-full flex flex-col '>
-        <div className='flex flex-col justify-center items-center bg-[#1F1F1F] md:h-[60vh] h-[70vh]'>
+        <div className='flex flex-col justify-center items-center bg-[#1F1F1F] md:h-[40vh] h-[70vh]'>
             <div className='w-11/12 mx-auto flex md:flex-row flex-col justify-between items-start md:px-12'>
 
             <div className='flex flex-wrap md:gap-24 gap-8 w-full items-start'>
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-full h-12 bg-redtheme flex justify-center items-center'>
-             <p className='text-center text-white md:text-sm text-xs '>© Copyright ©2024 BrandSaga. All Rights Reserved Copyright</p>
+             <p className='text-center text-white md:text-sm text-xs '>© Copyright ©2024 BrandSaga. All Rights Reserved.</p>
         </div>
     </div>
   )

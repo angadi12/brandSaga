@@ -16,14 +16,14 @@ const Customservicecard = ({value}) => {
     <div className={`flex justify-between px-2 ${value.className} items-start py-8 w-full`}>
       <div className="flex flex-col justify-start items-start gap-4 lg:w-[46%] ">
       <div className='flex flex-col justify-start items-start md:mt-8 lg:mt-0'>
-      <h6 className='md:text-xl md:mt-0 mt-4  font-bold capitalize leading-7'>{value.tittle}</h6>
+      <h6 className='md:text-2xl md:mt-0 mt-4  font-bold capitalize leading-7'>{value.tittle}</h6>
       <span className='h-1 w-24 bg-redtheme'></span>
 
       </div>
 
       <p className='text-start  text-sm font-medium leading-7 lg:w-[32rem]'>{value.description}</p>
       <div className='mt-4 flex flex-col md:flex-row w-full items-center gap-4 md:gap-8'>
-        <Button variant='solid' className='text-white md:w-40 w-full  h-10 rounded-full text-center bg-redtheme'>{value.CTA1}</Button>
+        {/* <Button variant='solid' className='text-white md:w-40 w-full  h-10 rounded-full text-center bg-redtheme'>{value.CTA1}</Button> */}
         <Button  onPress={onOpen} className='text-white md:w-40 w-full h-10 rounded-full text-center bg-greentheme'>{value.CTA2}</Button>
       </div>
         

@@ -369,7 +369,7 @@ const Herosection = () => {
                     <Button
                     onPress={()=>router.push('/Contactus')}
                       variant="solid"
-                      className="bg-greentheme text-white rounded-full w-60 hidden md:block"
+                      className="bg-wihte text-black font-semibold ring-2 ring-black rounded-full w-60 hidden md:block"
                     >
                       Contact Us
                     </Button>

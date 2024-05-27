@@ -259,9 +259,9 @@ export default function Nav() {
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
         maxWidth="full"
-        className="md:w-[95%] mx-auto bg-transparent lg:mt-4 "
-        isBlurred={false}
-        position="static"
+        className="md:w-[100%] mx-auto bg-transparent  bg-blur-3xl"
+        isBlurred={true}
+        position="sticky"
       >
         <NavbarBrand>
           {pathname === "/" ? (
@@ -280,7 +280,7 @@ export default function Nav() {
                 selected === "Home"
                   ? "font-semibold text-xs text-redtheme"
                   : pathname === "/"
-                  ? "font-semibold text-xs text-white"
+                  ? "font-bold text-xs  text-white"
                   : "font-semibold text-xs text-black"
               }
               href="/"

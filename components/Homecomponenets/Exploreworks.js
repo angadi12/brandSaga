@@ -210,7 +210,7 @@ const Exploreworks = () => {
   return (
     <div className="flex flex-col w-11/12 mx-auto mt-4">
       <div>
-        <h6 className="text-xl font-bold leading-8 capitalize ">
+        <h6 className="text-3xl font-bold leading-8 capitalize ">
           explore our <span className="text-redtheme">works</span> by
           categories!
         </h6>
@@ -227,8 +227,8 @@ const Exploreworks = () => {
                 key={index}
                 className="md:basis-1/6 basis-1/3 lg:basis-1/8"
               >
-                <div className="p-1">
-                  <Card className="border-none lg:w-44 md:w-[7.5rem] w-28 ">
+                <div className="">
+                  <Card className="border-none lg:w-48 md:w-[8rem] w-28 ">
                     <CardContent className="flex items-center gap-0 justify-center p-1 capitalize">
                       <Button
                         onPress={() => Setselecttab(element)}

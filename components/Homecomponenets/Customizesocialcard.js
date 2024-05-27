@@ -15,13 +15,13 @@ import Banner1 from '../../public/Portfolioasset/Banner1.png'
 
 const Customizesocialcard = () => {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-8 place-content-center justify-items-center py-8 h-auto  w-full">
+    <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 place-content-center justify-items-center py-8 h-auto  w-full">
       {/* <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 500: 2, 800: 3, 900: 3 }}
       >
         <Masonry gutter="20px"> */}
          
-          <Card className="max-w-[340px] ring-1 ring-facebook">
+          <Card className="max-w-[32rem]  ring-1 ring-facebook">
             <CardHeader className="justify-between">
               <div className="flex gap-5">
                 <Avatar
@@ -61,7 +61,7 @@ const Customizesocialcard = () => {
             </CardBody>
            
           </Card>
-          <Card className="max-w-[340px] ring-1 ring-facebook">
+          <Card className="max-w-[32rem] ring-1 ring-facebook">
             <CardHeader className="justify-between">
               <div className="flex gap-5">
                 <Avatar
@@ -101,7 +101,7 @@ const Customizesocialcard = () => {
             </CardBody>
            
           </Card>
-          <Card className="max-w-[340px] ring-1 ring-facebook">
+          <Card className="max-w-[32rem] ring-1 ring-facebook">
             <CardHeader className="justify-between">
               <div className="flex gap-5">
                 <Avatar

@@ -79,7 +79,7 @@ const Contact = () => {
             ask!`}
           </h6>
           <div className="flex flex-col w-full justify-start items-start gap-4">
-            <div className="lg:w-11/12 w-full grid lg:grid-cols-2 grid-cols-1 gap-4 place-content-center items-start">
+            <div className="w-[90%]  grid lg:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-between items-start">
               <Input
                 type="text"
                 variant="bordered"
@@ -113,23 +113,23 @@ const Contact = () => {
                 placeholder="Email address"
               />
             </div>
-            <div className="w-full ">
+            <div className="w-[90%] pr-2">
               <Select
                 label="service required"
                 variant="bordered"
                 size="md"
                 radius="sm"
-                className="lg:w-[90%] mx-auto"
+                className=" w-full mx-auto"
               >
                 <SelectItem></SelectItem>
               </Select>
             </div>
-            <div className="w-full">
+            <div className="w-[90%] pr-2">
               <Textarea
                 isReadOnly
                 variant="bordered"
                 placeholder="your message (Optional)"
-                className="lg:w-[90%] "
+                className="w-full"
               />
             </div>
             <div className="w-full flex justify-center items-center mt-4 ">
