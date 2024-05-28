@@ -24,8 +24,8 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-4 justify-start items-start text-white'>
                 <p className='text-redtheme font-semibold text-xl'>Resources</p>
-                    <span  className='text-sm text-white cursor-pointer'>Terms & Condition</span>
-                    <span  className='text-sm text-white cursor-pointer'>Privacy & Policy</span>
+                    <span   onClick={()=>router.push('/Termsandcondition')}  className='text-sm text-white cursor-pointer'>Terms & Condition</span>
+                    <span  onClick={()=>router.push('/Privacy')}   className='text-sm text-white cursor-pointer'>Privacy & Policy</span>
                 </div>
                 <div className='flex flex-col gap-4 justify-start items-start text-white'>
                 <p className='text-redtheme font-semibold text-xl'>Contact</p>
