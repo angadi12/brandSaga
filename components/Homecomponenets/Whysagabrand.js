@@ -120,7 +120,7 @@ const reviews=[
     <>
       <div className="w-full flex justify-center items-center gap-12 overflow-hidden py-16">
         <div className="lg:w-1/2 flex flex-col justify-center items-center gap-12">
-          <h2 className="font-bold text-3xl leading-8 capitalize">
+          <h2 className="font-bold text-3xl leading-8 capitalize px-2">
             why choose <span className="text-redtheme">brandSaga?</span>
           </h2>
 
