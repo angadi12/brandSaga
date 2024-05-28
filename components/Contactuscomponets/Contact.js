@@ -79,12 +79,12 @@ const Contact = () => {
             ask!`}
           </h6>
           <div className="flex flex-col w-full justify-start items-start gap-4">
-            <div className="w-[90%]  grid lg:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-between items-start">
+            <div className="w-full  grid lg:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-between items-start">
               <Input
                 type="text"
                 variant="bordered"
                 radius="sm"
-                className="lg:w-60 rounded-none"
+                className="w-full rounded-none"
                 size="lg"
                 placeholder="First Name"
               />
@@ -92,7 +92,7 @@ const Contact = () => {
                 type="text"
                 variant="bordered"
                 radius="sm"
-                className="lg:w-60 rounded-none"
+                className="w-full rounded-none"
                 size="lg"
                 placeholder="Last Name"
               />
@@ -100,7 +100,7 @@ const Contact = () => {
                 type="text"
                 variant="bordered"
                 radius="sm"
-                className="lg:w-60 rounded-none"
+                className="w-full rounded-none"
                 size="lg"
                 placeholder="mobile Number"
               />
@@ -108,12 +108,12 @@ const Contact = () => {
                 type="text"
                 variant="bordered"
                 radius="sm"
-                className="lg:w-60 rounded-none"
+                className="w-full rounded-none"
                 size="lg"
                 placeholder="Email address"
               />
             </div>
-            <div className="w-[90%] pr-2">
+            <div className="w-full  ">
               <Select
                 label="service required"
                 variant="bordered"
@@ -124,7 +124,7 @@ const Contact = () => {
                 <SelectItem></SelectItem>
               </Select>
             </div>
-            <div className="w-[90%] pr-2">
+            <div className="w-full ">
               <Textarea
                 isReadOnly
                 variant="bordered"

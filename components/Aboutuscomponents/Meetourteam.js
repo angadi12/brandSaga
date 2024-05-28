@@ -341,7 +341,7 @@ const Meetourteam = () => {
       <div className="py-12 flex flex-col justify-center gap-4 mx-auto w-11/12 items-center">
         <Divider orientation="horizontal"/>
         <div className="w-full flex md:flex-row flex-col md:gap-0 gap-4 justify-between items-center px-2">
-          <h6 className="font-bold md:text-2xl text- md:leading-8">{`Ready to elevate your brand's digital`}<br></br> presence? Contact <span className="text-redtheme">BrandSaga</span>today to <br></br>{` start your digital saga!`}</h6>
+          <h6 className="font-bold md:text-2xl text- md:leading-8">{`Ready to elevate your brand's digital`}<br></br> presence? Contact <span className="text-redtheme mr-2">BrandSaga</span>today to <br></br>{` start your digital saga!`}</h6>
           <Button  onPress={onOpen} variant="solid" className="w-60 rounded-full bg-redtheme text-white capitalize text-center">get started</Button>
         </div>
         <Divider orientation="horizontal"/>

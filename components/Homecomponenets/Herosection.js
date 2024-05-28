@@ -245,7 +245,7 @@ const Herosection = () => {
             <div className="flex md:hidden justify-evenly  items-center w-11/12 mx-auto gap-4 md:mt-24 mt-16 relative">
               <div className="">
               <video
-                  className="rounded-md w-96 h-auto"
+                  className="rounded-md w-96  h-auto"
                   ref={videoRef}
                   loop
                   autoPlay={true}
@@ -282,7 +282,7 @@ const Herosection = () => {
             </div>
             {/* desktop view */}
             <div className=" hidden md:flex justify-evenly  items-center w-11/12 mx-auto gap-8 mt-20 relative">
-              <div className="rounded-md relative -top-4  flex justify-center items-center  ">
+              <div className="rounded-md relative top-4  flex justify-center items-center  ">
                 <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}
@@ -294,7 +294,7 @@ const Herosection = () => {
                   }
                 ></video>
               </div>
-              <div className="rounded-md relative top-4 ">
+              <div className="rounded-2xl relative top-8 ">
               <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}

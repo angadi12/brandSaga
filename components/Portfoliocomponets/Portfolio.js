@@ -420,7 +420,7 @@ const unactivetab =
           <div className="w-full flex md:flex-row flex-col md:gap-0 gap-4 justify-between items-center px-2">
             <h6 className="font-bold md:text-2xl text-xl leading-8">
               {`love our`}
-              <span className="text-redtheme">Works?</span>
+              <span className="text-redtheme ml-2">Works?</span>
               {` let’s Collab!`}
             </h6>
             <Button

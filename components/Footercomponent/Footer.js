@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-full h-12 bg-redtheme flex justify-center items-center'>
-             <p className='text-center text-white md:text-sm text-xs '>© Copyright ©2024 BrandSaga. All Rights Reserved.</p>
+             <p className='text-center text-white md:text-sm text-xs '>© Copyright 2024 BrandSaga. All Rights Reserved.</p>
         </div>
     </div>
   )

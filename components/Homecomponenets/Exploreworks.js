@@ -68,7 +68,7 @@ const Exploreworks = () => {
       videolink:
         "https://res.cloudinary.com/dipr7y36n/video/upload/v1714141292/BRAND-SAGA/Herosection/Videos/zm2zhhouhfjkwm9ykjio.mp4",
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "food blogger",
       style: "flex-col",
     },
@@ -76,56 +76,56 @@ const Exploreworks = () => {
       videolink:
         "https://res.cloudinary.com/dipr7y36n/video/upload/v1714141292/BRAND-SAGA/Herosection/Videos/zm2zhhouhfjkwm9ykjio.mp4",
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Top Rated",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715844655/BRAND-SAGA/FOOD/WhatsApp_Video_2024-05-06_at_5.12.57_PM_qtnpiv.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "food blogger",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715844602/BRAND-SAGA/FOOD/WhatsApp_Video_2024-05-06_at_5.12.56_PM_a4n31l.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "food blogger",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715844602/BRAND-SAGA/FOOD/WhatsApp_Video_2024-05-06_at_5.12.56_PM_a4n31l.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Top Rated",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715844528/BRAND-SAGA/FOOD/WhatsApp_Video_2024-05-06_at_5.12.56_PM_r0egk4.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "food blogger",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845963/BRAND-SAGA/Event/VID-20240516-WA0003_wgxc8d.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Events",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845963/BRAND-SAGA/Event/VID-20240516-WA0003_wgxc8d.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Top Rated",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1714141967/BRAND-SAGA/Herosection/Videos/z3oee6ryt9eymjyrukrq.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Events",
       style: "flex-col",
     },
@@ -133,56 +133,56 @@ const Exploreworks = () => {
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845483/BRAND-SAGA/E-commerce/WhatsApp_Video_2024-05-06_at_5.15.14_PM_hia9gx.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "E-commerce",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845483/BRAND-SAGA/E-commerce/WhatsApp_Video_2024-05-06_at_5.15.14_PM_hia9gx.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "Top Rated",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845435/BRAND-SAGA/E-commerce/WhatsApp_Video_2024-05-06_at_5.15.13_PM_evbbvk.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "E-commerce",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845405/BRAND-SAGA/E-commerce/WhatsApp_Video_2024-05-06_at_5.15.11_PM_dqwepa.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "E-commerce",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845356/BRAND-SAGA/PUB-BAR/VID-20240516-WA0002_zmufny.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "PUB & BAR",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845181/BRAND-SAGA/PUB-BAR/WhatsApp_Video_2024-05-06_at_5.13.52_PM_bg40ja.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "PUB & BAR",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715845124/BRAND-SAGA/PUB-BAR/VID-20240516-WA0001_hxbldg.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "PUB & BAR",
       style: "flex-col",
     },
     {
       videolink: `https://res.cloudinary.com/dipr7y36n/video/upload/v1715846022/BRAND-SAGA/Movie-promotion/WhatsApp_Video_2024-05-07_at_10.29.41_AM_mgrcn5.mp4`,
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "movie promotions",
       style: "flex-col",
     },
@@ -191,7 +191,7 @@ const Exploreworks = () => {
       videolink:
         "https://res.cloudinary.com/dipr7y36n/video/upload/v1714127690/BRAND-SAGA/Herosection/Videos/qobrb5god6tcxnc240nt.mp4",
       tag: "#trending #insta",
-      username: "Arjun Kapoor",
+      username: "",
       category: "lifestyle",
       style: "md:flex-col-reverse flex-col",
     },
@@ -278,7 +278,7 @@ const Exploreworks = () => {
                   <p className="text-sm font-semibold capitalize">
                     {value.username}
                   </p>
-                  <span className="text-xs text-greentheme">{value.tag}</span>
+                  {/* <span className="text-xs text-greentheme">{value.tag}</span> */}
                 </div>
               </div>
             ))}

@@ -5,6 +5,7 @@ import Nav from "@/components/Homecomponenets/Navbar";
 import Footer from "@/components/Footercomponent/Footer";
 import FAQ from "@/components/Homecomponenets/FAQ";
 import Chatbutton from "./Chatbutton";
+import Head from "next/head";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -16,11 +17,29 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/6655d758981b6c564775a725/1huvl2cmm';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+              })();
+            `,
+          }}
+        />
+      </Head>
       <body className={inter.className}>
         <Providers>
           <Nav />
           <main className="">
-            <Chatbutton />
+            {/* <Chatbutton /> */}
             {children}
             <FAQ />
           </main>
