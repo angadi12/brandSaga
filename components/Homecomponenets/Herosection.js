@@ -23,7 +23,6 @@ import influencerregi from "../../public/Homeasset/influencerregi.png";
 import brandregi from "../../public/Homeasset/brandregi.png";
 
 const InfluencerRegistrationForm = () => {
-
   return (
     <div>
       <div className="flex flex-col justify-start items-start md:gap-2 md:py-4 py-2">
@@ -210,7 +209,7 @@ const BrandRegistrationForm = () => {
 };
 
 const Herosection = () => {
-  const router=useRouter()
+  const router = useRouter();
 
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [RegistationTab, SetRegistationTab] = useState("Tab");
@@ -229,7 +228,7 @@ const Herosection = () => {
   const handleRegistration = () => {
     // Perform any registration logic here
     onOpenChange(false);
-    SetRegistationTab("Tab") // Close the modal after registration
+    SetRegistationTab("Tab"); // Close the modal after registration
   };
   return (
     <>
@@ -244,7 +243,7 @@ const Herosection = () => {
           <div className="z-10 w-full">
             <div className="flex md:hidden justify-evenly  items-center w-11/12 mx-auto gap-4 md:mt-24 mt-16 relative">
               <div className="">
-              <video
+                <video
                   className="rounded-md w-96  h-auto"
                   ref={videoRef}
                   loop
@@ -256,7 +255,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className="rounded-md relative -top-8 ">
-              <video
+                <video
                   className="rounded-md   w-96"
                   ref={videoRef}
                   loop
@@ -268,7 +267,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className=" ">
-              <video
+                <video
                   className="rounded-md  w-96"
                   ref={videoRef}
                   loop
@@ -295,7 +294,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className="rounded-2xl relative top-8 ">
-              <video
+                <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}
                   loop
@@ -307,7 +306,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className="rounded-md relative bottom-16 ">
-              <video
+                <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}
                   loop
@@ -319,7 +318,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className="relative -top-4">
-              <video
+                <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}
                   loop
@@ -331,7 +330,7 @@ const Herosection = () => {
                 ></video>
               </div>
               <div className="rounded-md relative top-8 ">
-              <video
+                <video
                   className="rounded-2xl w-72 h-[24rem]"
                   ref={videoRef}
                   loop
@@ -367,7 +366,7 @@ const Herosection = () => {
                       Get Started
                     </Button>
                     <Button
-                    onPress={()=>router.push('/Contactus')}
+                      onPress={() => router.push("/Contactus")}
                       variant="solid"
                       className="bg-wihte text-black font-semibold ring-2 ring-black rounded-full w-60 hidden md:block"
                     >
@@ -416,7 +415,7 @@ const Herosection = () => {
               {RegistationTab === "Tab" ? "Who are you?" : "Registration"}
             </ModalHeader>
             <ModalBody>
-              {RegistationTab === "Tab" ? ( 
+              {RegistationTab === "Tab" ? (
                 <div className="flex md:gap-24 gap-4 md:flex-row flex-col justify-center items-center ">
                   <div className="flex flex-col justify-center items-center gap-4">
                     <p className="text-sm font-bold uppercase">An Influencer</p>
@@ -441,7 +440,7 @@ const Herosection = () => {
               RegistationTab === "Influencer" ? (
                 <InfluencerRegistrationForm />
               ) : (
-                 RegistationTab === "Brand" && <BrandRegistrationForm />
+                RegistationTab === "Brand" && <BrandRegistrationForm />
               )}
             </ModalBody>
             <ModalFooter className="flex justify-center items-center md:mt-4">

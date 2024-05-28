@@ -46,15 +46,15 @@ import brandregi from "../../public/Homeasset/brandregi.png";
 const InfluencerRegistrationForm = () => {
   return (
     <div>
-      <div className="flex flex-col justify-start items-start gap-2 py-4">
-        <h6 className="text-2xl font-bold leading-7">
+      <div className="flex flex-col justify-start items-start md:gap-2 md:py-4 py-2">
+        <h6 className="md:text-2xl font-bold leading-7">
           Hey <span className="text-redtheme">Influencer!</span>
         </h6>
-        <p className="text-sm capitalize font-medium text-foreground-500">
+        <p className="md:text-sm text-xs capitalize font-medium text-foreground-500">
           Fill out the required details.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
         <Input
           radius="sm"
           variant="bordered"
@@ -136,18 +136,19 @@ const InfluencerRegistrationForm = () => {
   );
 };
 
+
 const BrandRegistrationForm = () => {
   return (
     <div>
-      <div className="flex flex-col justify-start items-start gap-2 py-4">
-        <h6 className="text-2xl font-bold leading-7">
+      <div className="flex flex-col justify-start items-start md:gap-2 md:py-4 py-2">
+        <h6 className="md:text-2xl font-bold leading-7">
           Hey <span className="text-redtheme">Hey Brand owner!</span>
         </h6>
-        <p className="text-sm capitalize font-medium text-foreground-500">
+        <p className="md:text-sm text-xs capitalize font-medium text-foreground-500">
           Fill out the required details.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
         <Input
           radius="sm"
           variant="bordered"
@@ -474,12 +475,12 @@ const unactivetab =
             </ModalHeader>
             <ModalBody>
               {RegistationTab === "Tab" ? ( // Render tab selection
-                <div className="flex gap-24 justify-center items-center ">
+              <div className="flex md:gap-24 gap-4 md:flex-row flex-col justify-center items-center ">
                   <div className="flex flex-col justify-center items-center gap-4">
                     <p className="text-sm font-bold uppercase">An Influencer</p>
                     <Image
                       onClick={() => SetRegistationTab("Influencer")}
-                      className="h-72 w-72 cursor-pointer hover:ring-2 hover:rounded-lg hover:ring-greentheme"
+                      className="md:h-72 md:w-72 w-40 h-40 cursor-pointer hover:ring-2 hover:rounded-lg hover:ring-greentheme"
                       src={influencerregi}
                       alt="influencerregi"
                     />
@@ -488,7 +489,7 @@ const unactivetab =
                     <p className="text-sm font-bold uppercase">a brand</p>
                     <Image
                       onClick={() => SetRegistationTab("Brand")}
-                      className="h-72 w-72 cursor-pointer hover:ring-2 hover:rounded-lg hover:ring-greentheme"
+                      className="md:h-72 md:w-72 w-40 h-40 cursor-pointer hover:ring-2 hover:rounded-lg hover:ring-greentheme"
                       src={brandregi}
                       alt="brandregi"
                     />
