@@ -14,7 +14,7 @@ const Aboutus = () => {
   return (
     <motion.div   initial={{opacity:0.7}}
     whileInView={{opacity:1}}
-    transition={{ duration: 0.5 }} className="flex flex-col justify-center items-center w-11/12 gap-8 mx-auto">
+    transition={{ duration: 0.5 }} className="flex flex-col justify-center items-center w-11/12 gap-8 mx-auto ">
       <motion.div
       initial={{opacity:0}}
       whileInView={{opacity:1}}

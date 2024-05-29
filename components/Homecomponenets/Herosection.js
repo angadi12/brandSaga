@@ -232,17 +232,17 @@ const Herosection = () => {
   };
   return (
     <>
-      <main className="md:pb-60 pb-72">
+      <main className="md:pb-72 pb-72">
         <Image
-          className="lg:h-screen md:h-[60vh] h-[50vh] w-full object-fill absolute top-0 z-0 overflow-hidden"
+          className="lg:h-screen md:h-[60vh] h-[40vh] w-full object-fill absolute top-0 z-0 overflow-hidden"
           src={Backimage}
           alt="backround-image"
         />
 
         <div className="w-full flex justify-center flex-col gap-8 ">
           <div className="z-10 w-full">
-            <div className="flex md:hidden justify-evenly  items-center w-11/12 mx-auto gap-4 md:mt-24 mt-16 relative">
-              <div className="">
+            <div className="flex md:hidden justify-evenly  items-center w-11/12 mx-auto gap-4 md:mt-24 mt-12 relative">
+              <div className="w-96 h-auto">
                 <video
                   className="rounded-md w-96  h-auto"
                   ref={videoRef}
@@ -254,7 +254,7 @@ const Herosection = () => {
                   }
                 ></video>
               </div>
-              <div className="rounded-md relative -top-8 ">
+              <div className="rounded-md relative -top-8 w-96 h-auto">
                 <video
                   className="rounded-md   w-96"
                   ref={videoRef}
@@ -266,9 +266,9 @@ const Herosection = () => {
                   }
                 ></video>
               </div>
-              <div className=" ">
+              <div className="w-96 h-auto ">
                 <video
-                  className="rounded-md  w-96"
+                  className="rounded-md h-auto w-96"
                   ref={videoRef}
                   loop
                   autoPlay={true}
@@ -343,8 +343,8 @@ const Herosection = () => {
               </div>
             </div>
 
-            <div className="w-full absolute md:top-[25rem] top-[16rem] h-96 overflow-hidden    ">
-              <Image className="" src={Ellipse} alt="eclipse" />
+            <div className="w-full absolute md:top-[25rem] top-[14rem]  h-96 overflow-hidden    ">
+              <Image className="relative object-cover" src={Ellipse} alt="eclipse" />
               <div class="absolute md:top-[50%] top-[45%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                 <div className="flex flex-col justify-center items-center md:gap-6 gap-3 w-full">
                   <h6 className="text-center md:text-4xl text-lg  font-bold md:leading-10">

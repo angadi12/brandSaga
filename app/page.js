@@ -19,7 +19,7 @@ export default function Home() {
       className="w-full"
     >
       <Herosection />
-      <Divider orientation="horizontal" className="w-11/12 mx-auto" />
+      {/* <Divider orientation="horizontal" className="w-11/12 mx-auto" /> */}
       <Aboutsaga />
       <Aboutservice />
       <Divider orientation="horizontal" className="w-11/12 mx-auto" />

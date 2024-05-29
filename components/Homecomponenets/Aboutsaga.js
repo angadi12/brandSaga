@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button, Divider } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
 import aboutimag from "../../public/Homeasset/Aboutsagaimg.png";
@@ -11,7 +11,11 @@ const Aboutsaga = () => {
   const router=useRouter()
 
   return (
-    <div className="w-11/12 py-20 mx-auto flex lg:flex-row flex-col-reverse justify-center items-start gap-12">
+
+    <>
+                <Divider orientation="horizontal" className="w-11/12 mx-auto" />
+
+    <div className="w-11/12 py-12 md:py-20  mx-auto flex lg:flex-row flex-col-reverse justify-center items-start gap-12">
       <div className="flex flex-col justify-start items-start gap-8 lg:w-[46%]">
         <h6 className="text-3xl font-semibold">
           About <span className="text-redtheme">BrandSaga!</span>
@@ -45,6 +49,7 @@ const Aboutsaga = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
