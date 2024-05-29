@@ -260,13 +260,13 @@ const Exploreworks = () => {
                   index % 2 === 0 ? evenitem : odditem
                 } flex justify-center items-start gap-2`}
               >
-                <div onMouseMove={()=>Sethoverindex(index)} onMouseLeave={()=>Sethoverindex(null)} className="ring-2 ring-redtheme rounded-lg relative flex justify-center items-center">
+                <div  className="ring-2 ring-redtheme rounded-lg relative flex justify-center items-center">
                   <video
                     className="rounded-md"
                     src={value.videolink}
                     ref={(el) => (videoRefs.current[index] = el)}
                   ></video>
-                  <div  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
+                  <div onMouseMove={()=>Sethoverindex(index)} onMouseLeave={()=>Sethoverindex(null)}  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
                   {videoRefs.current[index] && videoRefs.current[index].paused ? (
                     <FaPlay size={20} className="text-greentheme" onClick={() => handlePlay(index)} />
                   ) : (
