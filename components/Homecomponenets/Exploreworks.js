@@ -20,7 +20,8 @@ import { FaPlay } from "react-icons/fa";
 const Exploreworks = () => {
   const [selectedtab, Setselecttab] = useState("Top Rated");
   const [fillterData, SetFillterData] = useState([]);
-  const [Hoverindex,Sethoverindex]=useState(null)
+
+  const [playingVideos, setPlayingVideos] = useState({});
 
   const videoRefs = useRef([]);
 
@@ -29,6 +30,7 @@ const Exploreworks = () => {
     const video = videoRefs.current[index];
     if (video) {
       video.play();
+      setPlayingVideos((prev) => ({ ...prev, [index]: true }));
     }
   };
 
@@ -37,8 +39,30 @@ const Exploreworks = () => {
     const video = videoRefs.current[index];
     if (video) {
       video.pause();
+      setPlayingVideos((prev) => ({ ...prev, [index]: false }));
     }
   };
+
+
+
+
+  // const videoRefs = useRef([]);
+
+  // // Function to handle play action
+  // const handlePlay = (index) => {
+  //   const video = videoRefs.current[index];
+  //   if (video) {
+  //     video.play();
+  //   }
+  // };
+
+  // // Function to handle pause action
+  // const handlePause = (index) => {
+  //   const video = videoRefs.current[index];
+  //   if (video) {
+  //     video.pause();
+  //   }
+  // };
 
   const activetab =
     "md:px-8 m-0 md:w-60 text-xs md:text-sm rounded-md text-white bg-redtheme font-semibold capitalize";
@@ -264,14 +288,30 @@ const Exploreworks = () => {
                   <video
                     className="rounded-md"
                     src={value.videolink}
+                    // ref={(el) => (videoRefs.current[index] = el)}
                     ref={(el) => (videoRefs.current[index] = el)}
+                    onPlay={() => setPlayingVideos((prev) => ({ ...prev, [index]: true }))}
+                    onPause={() => setPlayingVideos((prev) => ({ ...prev, [index]: false }))}
                   ></video>
-                  <div onClick={()=>Sethoverindex(index)} onMouseLeave={()=>Sethoverindex(null)}  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
-                  {videoRefs.current[index] && videoRefs.current[index].paused ? (
-                    <FaPlay size={20} className="text-greentheme" onClick={() => handlePlay(index)} />
+                  <div  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
+                  {playingVideos[index] ? (
+                      <IoMdPause
+                        size={20}
+                        className="text-redtheme"
+                        onClick={() => handlePause(index)}
+                      />
+                    ) : (
+                      <FaPlay
+                        size={20}
+                        className="text-greentheme"
+                        onClick={() => handlePlay(index)}
+                      />
+                    )}
+                  {/* {videoRefs.current[index] && videoRefs.current[index].paused ? (
+                    <FaPlay size={20} className="text-greentheme" onClick={() =>handlePlay(index)} />
                   ) : (
-                    <IoMdPause size={20} className="text-redtheme" onClick={() => handlePause(index)} />
-                  )}
+                    <IoMdPause size={20} className="text-redtheme" onClick={() =>handlePause(index)} />
+                  )} */}
                   </div>
                 </div>
                 <div>
