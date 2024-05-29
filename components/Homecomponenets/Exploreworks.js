@@ -266,7 +266,7 @@ const Exploreworks = () => {
                     src={value.videolink}
                     ref={(el) => (videoRefs.current[index] = el)}
                   ></video>
-                  <div onMouseMove={()=>Sethoverindex(index)} onMouseLeave={()=>Sethoverindex(null)}  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
+                  <div onClick={()=>Sethoverindex(index)} onMouseLeave={()=>Sethoverindex(null)}  className="absolute w-16 h-16 bg-white rounded-full flex justify-center items-center">
                   {videoRefs.current[index] && videoRefs.current[index].paused ? (
                     <FaPlay size={20} className="text-greentheme" onClick={() => handlePlay(index)} />
                   ) : (
