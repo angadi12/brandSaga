@@ -23,6 +23,7 @@ const Chatbutton = () => {
     subject: "",
     message: "",
   });
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     setFormData({
@@ -31,31 +32,37 @@ const Chatbutton = () => {
     });
   };
 
+
+ 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      const response = await toast.promise(
-        saveFormData(formData),
-        {
-          loading: 'Sending message...',
-          success: <b>Message sent successfully!</b>,
-          error: <b>Failed to send message. Please try again.</b>,
-        }
-      );
-
-      if (response.ok) {
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-      }
-    } catch (error) {
-      console.error("Error occurred:", error);
-      toast.error("Failed to send message. Please try again.");
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.subject || !formData.message) {
+      toast.error("Please fill out all required fields");
+      return;
     }
+      try {
+        const response = await toast.promise(
+          saveFormData(formData),
+          {
+            loading: 'Sending message...',
+            success: <b>Message sent successfully!</b>,
+            error: <b>Failed to send message. Please try again.</b>,
+          }
+        );
+        if (response.ok) {
+          setFormData({
+            firstName: "",
+            lastName: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        }
+      } catch (error) {
+        console.error("Error occurred:", error);
+        toast.error("Failed to send message. Please try again.");
+      }
   };
 
   const saveFormData = async (data) => {
@@ -67,11 +74,29 @@ const Chatbutton = () => {
         },
         body: JSON.stringify(data),
       });
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
       return response;
     } catch (error) {
       throw error;
     }
   };
+
+  // const saveFormData = async (data) => {
+  //   try {
+  //     const response = await fetch("/api/Contactform", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(data),
+  //     });
+  //     return response;
+  //   } catch (error) {
+  //     throw error;
+  //   }
+  // };
 
 
   return (

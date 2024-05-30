@@ -173,6 +173,7 @@ export default function Nav() {
         }
       } catch (error) {
         console.error('Error occurred:', error);
+        toast.error("Failed. Please try again.");
         return false; // Promise resolved with false for failure
       }
     };
@@ -409,6 +410,7 @@ export default function Nav() {
         }
       } catch (error) {
         console.error('Error occurred:', error);
+        toast.error("Failed. Please try again.");
         return false; // Promise resolved with false for failure
       }
     };
