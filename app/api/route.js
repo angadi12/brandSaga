@@ -26,7 +26,7 @@ export async function POST(req) {
   // Set up email data
   let mailOptions = {
     from: process.env.email,
-    to: process.env.email, // The email address where you want to receive the registration details
+    to: process.env.Client_Email, // The email address where you want to receive the registration details
     subject: 'New Registration Details',
     text: `
       Page Name: ${pageName}
