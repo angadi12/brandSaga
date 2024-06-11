@@ -11,7 +11,7 @@ import Facebook from "../../public/Aboutusasset/Facebook.png";
 import Instagram from "../../public/Aboutusasset/Instagram.png";
 import Linkdin from "../../public/Aboutusasset/Linkdin.png";
 import Image from "next/image";
-import {Button, Card, CardBody, CardFooter, Divider} from "@nextui-org/react";
+import {Button, Card, CardBody, CardFooter, Divider,Spinner} from "@nextui-org/react";
 import influencerregi from "../../public/Homeasset/influencerregi.png";
 import brandregi from "../../public/Homeasset/brandregi.png";
 import {
