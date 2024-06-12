@@ -600,18 +600,18 @@ const Customservicecard = ({ value }) => {
                       </p>
                       <li className="text-xs font-medium uppercase p-1">
                         Micro-Influencers (10k-50k followers):{" "}
-                        <span className="text-redtheme">$500 - $1000</span>per
+                        <span className="text-redtheme">2000 - 6000</span>per
                         post
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         Mid-Tier Influencers (50k-500k followers):{" "}
-                        <span className="text-redtheme"> $1000 - $5000</span>per
+                        <span className="text-redtheme"> 6000 - 30000</span>per
                         post
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         {" "}
                         Macro-Influencers (500k-1M followers):{" "}
-                        <span className="text-redtheme">$5000 - $10,000</span>
+                        <span className="text-redtheme">30000 -100000</span>
                         per post
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
@@ -631,13 +631,13 @@ const Customservicecard = ({ value }) => {
                       </p>
                       <li className="text-xs font-medium uppercase p-1">
                         Graphic Design:{" "}
-                        <span className="text-redtheme">$50 - $200</span> per
-                        design
+                        Starting from<span className="text-redtheme">1000</span>
+                        
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         Video Production:{" "}
-                        <span className="text-redtheme"> $500 - $2000</span>per
-                        video
+                        Starting from<span className="text-redtheme">1000</span>
+
                       </li>
                     </div>
                   </div>
@@ -651,7 +651,7 @@ const Customservicecard = ({ value }) => {
                       </p>
                       <li className="text-xs font-medium uppercase p-1">
                         Campaign Strategy:{" "}
-                        <span className="text-redtheme"> $1000 - $5000</span>
+                        <span className="text-redtheme"> 10000 - 50000</span>
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         {" "}
@@ -676,18 +676,18 @@ const Customservicecard = ({ value }) => {
                         Breakdown:
                       </p>
                       <li className="text-xs font-medium uppercase p-1">
-                        Monthly Social Media Management:Starting at{" "}
-                        <span className="text-redtheme">$1500</span>
+                        Monthly Social Media Management:Starting from{" "}
+                        <span className="text-redtheme">15000</span>
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         Content Creation:{" "}
-                        <span className="text-redtheme">$100 - $500</span>per
+                        <span className="text-redtheme">500 - 2000</span>per
                         post
                       </li>
                       <li className="text-xs font-medium uppercase p-1">
                         {" "}
                         Advertising Management:{" "}
-                        <span className="text-redtheme"> 15% </span>of ad spend
+                        <span className="text-redtheme"> 15% </span>on ad spend
                       </li>
                     </div>
                   </div>

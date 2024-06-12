@@ -18,7 +18,7 @@ export async function POST(req) {
 
   let mailOptions = {
     from: process.env.email,
-    to: process.env.email, // The email address where you want to receive the contact details
+    to:process.env.Client_Email, // The email address where you want to receive the contact details
     subject: subject,
     text: `
       Name: ${firstName} ${lastName}
