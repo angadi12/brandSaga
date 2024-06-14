@@ -65,10 +65,10 @@ const FAQ = () => {
           </AccordionItem>
         </Accordion>
         <div className="flex justify-end items-center px-1 gap-2">
-          <Button variant="light">
+          {/* <Button variant="light">
             <p className="text-redtheme text-sm">See more questions</p>
             <GoArrowDown className="text-redtheme text-sm" />
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
