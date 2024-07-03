@@ -9,7 +9,7 @@ import Chatbutton from "./Chatbutton";
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Brandsaga",
+  title:"Brandsaga",
   description: "We are your one-stop destination for all things digital marketing. From influencer/Celebrity collaborations to social media strategies, we are here to amplify your brand's presence in the digital landscape",
 };
 
