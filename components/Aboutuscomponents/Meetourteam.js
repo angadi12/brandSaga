@@ -178,7 +178,7 @@ const Meetourteam = () => {
             Fill out the required details.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
           <Input
             radius="sm"
             variant="bordered"
@@ -426,7 +426,7 @@ const Meetourteam = () => {
             Fill out the required details.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
           <Input
             radius="sm"
             variant="bordered"
