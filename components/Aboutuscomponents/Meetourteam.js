@@ -170,15 +170,15 @@ const Meetourteam = () => {
       <form onSubmit={handleSubmit}>
   
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
-          <h6 className="text-2xl font-bold leading-7">
+      <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
+      <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Influencer!</span>
           </h6>
           <p className="text-sm capitalize font-medium text-foreground-500">
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
@@ -418,15 +418,15 @@ const Meetourteam = () => {
       <form  onSubmit={handleSubmit}>
 
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
-          <h6 className="text-2xl font-bold leading-7">
+      <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
+      <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Brand owner!</span>
           </h6>
           <p className="text-sm capitalize font-medium text-foreground-500">
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
@@ -554,7 +554,7 @@ const Meetourteam = () => {
             </div>
         </div>
       </div>
-      <div className="py-16 w-11/12 mx-auto flex flex-col justify-start items-start gap-4 ">
+      {/* <div className="py-16 w-11/12 mx-auto flex flex-col justify-start items-start gap-4 ">
           <h6 className="text-3xl font-bold leading-8 capitalize py-8">meet our<span className="text-redtheme"> team!</span></h6>
           <div className="w-full mx-auto grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 place-content-center justify-items-center gap-16 items-center">
           <Card shadow="sm" className="w-72 relative">
@@ -646,7 +646,7 @@ const Meetourteam = () => {
           </CardFooter>
         </Card>
           </div>
-      </div>
+      </div> */}
       <div className="py-12 flex flex-col justify-center gap-4 mx-auto w-11/12 items-center">
         <Divider orientation="horizontal"/>
         <div className="w-full flex md:flex-row flex-col md:gap-0 gap-4 justify-between items-center px-2">

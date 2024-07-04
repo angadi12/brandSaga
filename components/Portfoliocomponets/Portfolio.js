@@ -190,7 +190,7 @@ const Portfolio = () => {
       <form onSubmit={handleSubmit}>
   
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
+      <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
           <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Influencer!</span>
           </h6>
@@ -198,7 +198,7 @@ const Portfolio = () => {
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
@@ -438,7 +438,7 @@ const Portfolio = () => {
       <form  onSubmit={handleSubmit}>
 
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
+      <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
           <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Brand owner!</span>
           </h6>
@@ -446,7 +446,7 @@ const Portfolio = () => {
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
@@ -679,7 +679,7 @@ const unactivetab =
      </div>
 
       <div className="flex flex-col w-11/12 mx-auto ">
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
+        {/* <div className="flex flex-col justify-start items-start gap-2 py-4">
           <h6 className="text-2xl font-bold leading-8 capitalize">
             <span className="text-redtheme capitalize">brands</span> who work
             with us!
@@ -725,7 +725,7 @@ const unactivetab =
           {bannerdata.map((value, index) => (
             <Image src={value.Image} key={index} />
           ))}
-        </div>
+        </div> */}
 
         <div className="py-12 flex flex-col justify-center gap-6 mx-auto w-full items-center">
           <Divider orientation="horizontal" />

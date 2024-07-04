@@ -21,9 +21,10 @@ const Contact = () => {
   });
 
   const services = [
-    { key: "service1", label: "Service 1" },
-    { key: "service2", label: "Service 2" },
-    { key: "service3", label: "Service 3" },
+    { key: "Influencer/Celebrity Marketing", label: "Influencer/Celebrity Marketing" },
+    { key: "Content Creation", label: "Content Creation" },
+    { key: "Digital Campaign Management", label: "Digital Campaign Management" },
+    { key: "Social Media Marketing", label: "Social Media Marketing" },
   ];
 
   const handleChange = (e) => {
@@ -208,9 +209,8 @@ const Contact = () => {
               <div className="w-full mt-4">
                 <Select
                   name="serviceRequired"
-                  label="Service Required"
                   variant="bordered"
-                  size="md"
+                  size="lg"
                   radius="sm"
                   className="w-full mx-auto"
                   selectedKeys={new Set([formData.serviceRequired])}

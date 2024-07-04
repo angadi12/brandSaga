@@ -26,7 +26,7 @@ export default function Home() {
       <Exploreworks />
       <Divider orientation="horizontal" className="w-11/12 mx-auto" />
       <Whysagabrand />
-      <Socialmedia />
+      {/* <Socialmedia /> */}
     </motion.main>
   );
 }

@@ -179,15 +179,15 @@ const Herosection = () => {
       <form onSubmit={handleSubmit}>
   
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
-          <h6 className="text-2xl font-bold leading-7">
+      <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
+      <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Influencer!</span>
           </h6>
           <p className="text-sm capitalize font-medium text-foreground-500">
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
@@ -427,15 +427,15 @@ const Herosection = () => {
       <form  onSubmit={handleSubmit}>
 
       <div>
-        <div className="flex flex-col justify-start items-start gap-2 py-4">
+        <div className="flex flex-col justify-start items-start md:gap-2 lg:gap-2 mb-2 md:py-4 lg:py-4">
           <h6 className="text-2xl font-bold leading-7">
             Hey <span className="text-redtheme">Brand owner!</span>
           </h6>
-          <p className="text-sm capitalize font-medium text-foreground-500">
+          <p className="md:text-sm lg:text-sm text-xs capitalize font-medium text-foreground-500">
             Fill out the required details.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  md:gap-3 lg:gap-3 gap-2">
           <Input
             radius="sm"
             variant="bordered"
